@@ -1,0 +1,47 @@
+.container-detail {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+    overflow-x: hidden;
+  }
+  
+  .nome{
+    color:#FFFF;
+    font-size: 30px;
+  }
+
+  .tdetail{
+    color: #013D59;
+    font-size: 40px;
+  }
+  
+  .detail-container {
+    background-image: url("/src/componentes/fundolis.png");
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 80%;
+    max-width: 800px;
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+    color:#FFFF;
+    font-weight: 400px;
+    font-size: 20px;
+  }
+  
+  .image-detail {
+    width: 50%; 
+    max-width: 300px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .info {
+    width: 50%;
+    text-align: left; 
+  }
+  

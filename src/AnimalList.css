@@ -1,0 +1,56 @@
+
+.container {
+    text-align: center;
+  }
+  
+  .tit_list{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: "Montserrat", serif;
+    color: #013D59;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .grid p{
+    font-size: 15px;
+    color: #FFFFFF;
+    
+  }
+
+  .grid h3{
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("./componentes/fundolis.png");
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .bt_dealhes {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

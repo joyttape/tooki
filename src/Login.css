@@ -1,0 +1,76 @@
+.container_login {
+    text-align: center;
+    background-color: #E6F3FB;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    overflow-x: hidden;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-grow: 1; 
+  }
+  
+  .form-wrapper {
+    background-image: url("./componentes/fundo_login.png");
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 400px; 
+    height: 300px;
+  }
+
+  h1{
+    color: #ffffff;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  p{
+    font-size: 17px;
+    color:#E6F3FB;
+  }
+
+  a{
+    color:#013D59;
+    text-decoration: none;
+  }
+  
+  .inputlo {
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .bt_login {
+    font-family: "Montserrat", serif;
+    background-color: #FEC039;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .bt_login:hover{
+    background-color: #013D59;
+    color: #A4A4EC;
+    transition: ease-out 0.2s;
+    transform: scale(0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  

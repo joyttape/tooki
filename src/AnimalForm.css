@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Coloca o footer no final */
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-grow: 1; 
+  }
+  
+  .registerform-wrapper {
+    background-image: url("./componentes/fundo_login.png");
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 600px;
+    height:450px
+  }
+  
+  .form_register {
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center';
+    gap: '10px';
+  }
+  
+  .input {
+    padding: 10px;
+    width: 100%; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+  }
+  
+  .textarea {
+    font-family: "Montserrat", serif;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 100px;
+    width: 500px;
+  }
+  
+  .bt_animal {
+    font-family: "Montserrat", serif;
+    background-color: #FEC039;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
